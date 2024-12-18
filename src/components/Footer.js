@@ -24,9 +24,9 @@ export default function Footer() {
         {/* Contact Info */}
         <div className={styles.contactInfo}>
           <h4>Contact Us</h4>
-          <p>Email: info@winista.com</p>
-          <p>Phone: +1 234 567 890</p>
-          <p>Address: 123 Pharma Street, Health City, USA</p>
+          <p>Email: winistapharma123@gmail.com</p>
+          <p>Phone: +91 1234567890</p>
+          <p>Address: SHRI YASHWANT EMPIRE CHS LTD SHOP NO-21 Gr FLOOR YASWANT VIVA TOWNSHIP, ACHOLE VASAI EAST, PALGHAR,  MAHARASHTRA</p>
         </div>
       </div>
 

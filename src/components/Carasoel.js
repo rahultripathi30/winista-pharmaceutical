@@ -4,8 +4,8 @@ import styles from '../styles/Carousel.module.css';
 const Carousel = () => {
   const slides = [
     "Slide 1: Your trusted partner in healthcare.",
-    "Slide 2: Innovative pharmaceutical solutions.",
-    "Slide 3: Delivering quality and care.",
+    "Slide 2: Innovative pharmaceutical solution.",
+    "Slide 3: Delivering quality & care solution.",
   ];
   
   const [currentIndex, setCurrentIndex] = useState(0);
