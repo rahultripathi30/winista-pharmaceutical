@@ -1,0 +1,54 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #f0f8ff; /* Light blue background for the carousel */
+  }
+  
+  .carouselWrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slides {
+    display: flex;
+  }
+  
+  .slide {
+    min-width: 100%;
+    background-color: #e0f7fa; /* Light cyan background for each slide */
+    color: #333333; /* Dark text for contrast */
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+  }
+  
+  .prevButton,
+  .nextButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for the arrows */
+    color: #004aad; /* Dark blue arrow color */
+    border: none;
+    font-size: 2rem;
+    padding: 1rem;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%; /* Rounded buttons */
+  }
+  
+  .prevButton {
+    left: 10px;
+  }
+  
+  .nextButton {
+    right: 10px;
+  }
+  
+  .prevButton:hover,
+  .nextButton:hover {
+    background-color: rgba(255, 255, 255, 1); /* Slightly darker on hover */
+    color: #007bb5; /* Darker blue on hover */
+  }
+  

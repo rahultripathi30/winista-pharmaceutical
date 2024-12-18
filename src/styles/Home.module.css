@@ -1,9 +1,53 @@
-.carousel {
-    display: flex;
-    overflow: hidden;
+/* Main Content Styling */
+.mainContent {
+    padding: 2rem;
+    background-color: #f8f9fa;
   }
-  .slide {
-    min-width: 100%;
-    transition: transform 0.5s ease-in-out;
+  
+  /* Intro Section Styling */
+  .introSection {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: #ffffff; /* White background for the section */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for the section */
+    border-radius: 8px; /* Rounded corners for the section */
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    color: #004aad; /* Dark blue color for the heading */
+    font-weight: bold;
+  }
+  
+  .tagline {
+    font-size: 1.5rem;
+    color: #007bb5; /* Lighter blue for the tagline */
+    margin-top: 1rem;
+  }
+  
+  .description {
+    font-size: 1.1rem;
+    color: #333333; /* Dark gray color for text */
+    line-height: 1.8;
+    margin-top: 1.5rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .heading {
+      font-size: 2rem;
+    }
+  
+    .tagline {
+      font-size: 1.2rem;
+    }
+  
+    .description {
+      font-size: 1rem;
+    }
   }
   

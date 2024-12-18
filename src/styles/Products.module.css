@@ -1,0 +1,85 @@
+/* Main Content Styling */
+.mainContent {
+    padding: 3rem 2rem;
+    background-color: #f8f9fa;
+  }
+  
+  /* Products Section Styling */
+  .productsSection {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    color: #004aad;
+    font-weight: bold;
+  }
+  
+  .introduction {
+    font-size: 1.3rem;
+    color: #333333;
+    margin-top: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Products List */
+  .productsList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .productCard {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .productImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .productTitle {
+    font-size: 1.8rem;
+    color: #007bb5;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .productDescription {
+    font-size: 1rem;
+    color: #333333;
+    margin-top: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .heading {
+      font-size: 2rem;
+    }
+  
+    .introduction {
+      font-size: 1.1rem;
+    }
+  
+    .productTitle {
+      font-size: 1.6rem;
+    }
+  
+    .productDescription {
+      font-size: 0.9rem;
+    }
+  }
+  

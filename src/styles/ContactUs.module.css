@@ -1,0 +1,101 @@
+/* Main Content Styling */
+.mainContent {
+    padding: 3rem 2rem;
+    background-color: #f8f9fa;
+  }
+  
+  /* Contact Section Styling */
+  .contactSection {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    color: #004aad;
+    font-weight: bold;
+  }
+  
+  .introduction {
+    font-size: 1.3rem;
+    color: #333333;
+    margin-top: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Contact Form Styling */
+  .contactForm {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: left;
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputGroup label {
+    font-size: 1.1rem;
+    color: #007bb5;
+    margin-bottom: 0.5rem;
+  }
+  
+  .inputGroup input,
+  .inputGroup textarea {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .inputGroup textarea {
+    resize: vertical;
+  }
+  
+  .submitButton {
+    padding: 0.8rem 1.5rem;
+    background-color: #004aad;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #0055cc;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .heading {
+      font-size: 2rem;
+    }
+  
+    .introduction {
+      font-size: 1.1rem;
+    }
+  
+    .contactForm {
+      gap: 1rem;
+    }
+  
+    .inputGroup input,
+    .inputGroup textarea {
+      font-size: 1rem;
+    }
+  
+    .submitButton {
+      font-size: 1rem;
+    }
+  }
+  

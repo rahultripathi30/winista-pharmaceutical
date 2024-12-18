@@ -1,0 +1,55 @@
+/* Header Styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #004aad;
+  color: white;
+}
+
+/* Logo and Text Container */
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 50px; /* Space between logo and text */
+}
+
+.logoText {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* Navigation Styling */
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navList li {
+  font-size: 1.1rem;
+}
+
+.navList a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.navList a:hover {
+  color: #ffcc00; /* Hover color */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .logoText {
+    font-size: 1.5rem;
+  }
+
+  .navList {
+    gap: 1rem;
+  }
+}
