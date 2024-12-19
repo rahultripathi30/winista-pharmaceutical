@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Ciprofloxacin 500mg",
+      "description": "Ciprofloxacin is a broad-spectrum antibiotic used to treat a variety of bacterial infections, including urinary tract infections, respiratory infections, and skin infections. It works by inhibiting bacterial DNA synthesis.",
+      "image": "/images/logo.png",
+      "price": 15.99
+    },
+    {
+      "id": 2,
+      "name": "Paracetamol 500mg",
+      "description": "Paracetamol is an over-the-counter medication commonly used for pain relief and reducing fever. It is effective for headaches, muscle aches, and mild to moderate pain. It works by blocking the production of prostaglandins in the brain.",
+      "image": "/images/logo.png",
+      "price": 5.99
+    },
+    {
+      "id": 3,
+      "name": "Amoxicillin 250mg",
+      "description": "Amoxicillin is an antibiotic used to treat a range of bacterial infections, including ear infections, throat infections, and pneumonia. It works by preventing the growth of bacteria.",
+      "image": "/images/logo.png",
+      "price": 19.99
+    },
+    {
+      "id": 4,
+      "name": "Atorvastatin 20mg",
+      "description": "Atorvastatin is a statin used to lower cholesterol and triglyceride levels in the blood. It helps prevent heart disease and stroke by reducing the risk of cardiovascular events.",
+      "image": "/images/logo.png",
+      "price": 29.99
+    },
+    {
+      "id": 5,
+      "name": "Omeprazole 20mg",
+      "description": "Omeprazole is a proton pump inhibitor (PPI) used to treat gastroesophageal reflux disease (GERD), stomach ulcers, and other conditions related to excess stomach acid. It works by reducing the amount of acid in the stomach.",
+      "image": "/images/logo.png",
+      "price": 12.99
+    }
+  ]
+  

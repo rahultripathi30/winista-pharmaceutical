@@ -1,6 +1,10 @@
 import Footer from '@/components/Footer';
 import Header from '../components/Header';
 import styles from '../styles/Products.module.css';
+import Link from 'next/link';
+
+// Importing the product data from JSON
+import productData from '../constants/products.json';
 
 export default function Products() {
   return (
@@ -14,30 +18,15 @@ export default function Products() {
           </p>
           
           <div className={styles.productsList}>
-            <div className={styles.productCard}>
-              <img src="/images/logo.png" alt="Product 1" className={styles.productImage} />
-              <h2 className={styles.productTitle}>Product 1</h2>
-              <p className={styles.productDescription}>
-                High-quality healthcare product designed to improve your well-being. 
-                Trusted by healthcare professionals.
-              </p>
-            </div>
-            
-            <div className={styles.productCard}>
-              <img src="/images/logo.png" alt="Product 2" className={styles.productImage} />
-              <h2 className={styles.productTitle}>Product 2</h2>
-              <p className={styles.productDescription}>
-                An innovative solution for effective treatment. Provides long-lasting relief for patients.
-              </p>
-            </div>
-
-            <div className={styles.productCard}>
-              <img src="/images/logo.png" alt="Product 3" className={styles.productImage} />
-              <h2 className={styles.productTitle}>Product 3</h2>
-              <p className={styles.productDescription}>
-                A revolutionary product that delivers fast results. Manufactured with precision and care.
-              </p>
-            </div>
+            {productData.map((product) => (
+              <Link key={product.id} href={`/products/${product.id}`}>
+                <div className={styles.productCard}>
+                  <img src={product.image} alt={product.name} className={styles.productImage} />
+                  <h2 className={styles.productTitle}>{product.name}</h2>
+                  <p className={styles.productDescription}>{product.description}</p>
+                </div>
+              </Link>
+            ))}
           </div>
         </section>
       </main>
