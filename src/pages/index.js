@@ -2,8 +2,12 @@ import Header from '../components/Header';
 import Carousel from '../components/Carasoel';
 import Footer from '../components/Footer';
 import styles from '../styles/Home.module.css';
+import { useEffect } from 'react';
 
 export default function Home() {
+  useEffect(() => {
+    alert('Work In Progress');
+  }, []); 
   return (
     <div>
       <Header />
