@@ -15,7 +15,7 @@ export default function Products() {
           
           <div className={styles.productsList}>
             <div className={styles.productCard}>
-              <img src="/images/product1.jpg" alt="Product 1" className={styles.productImage} />
+              <img src="/images/logo.png" alt="Product 1" className={styles.productImage} />
               <h2 className={styles.productTitle}>Product 1</h2>
               <p className={styles.productDescription}>
                 High-quality healthcare product designed to improve your well-being. 
@@ -24,7 +24,7 @@ export default function Products() {
             </div>
             
             <div className={styles.productCard}>
-              <img src="/images/product2.jpg" alt="Product 2" className={styles.productImage} />
+              <img src="/images/logo.png" alt="Product 2" className={styles.productImage} />
               <h2 className={styles.productTitle}>Product 2</h2>
               <p className={styles.productDescription}>
                 An innovative solution for effective treatment. Provides long-lasting relief for patients.
@@ -32,7 +32,7 @@ export default function Products() {
             </div>
 
             <div className={styles.productCard}>
-              <img src="/images/product3.jpg" alt="Product 3" className={styles.productImage} />
+              <img src="/images/logo.png" alt="Product 3" className={styles.productImage} />
               <h2 className={styles.productTitle}>Product 3</h2>
               <p className={styles.productDescription}>
                 A revolutionary product that delivers fast results. Manufactured with precision and care.
